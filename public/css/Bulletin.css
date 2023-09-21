@@ -1,0 +1,103 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5;  /* Couleur de fond pour l'entête, modifiable à souhait */
+}
+.content
+{
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;  /* Vous pouvez ajuster la taille du logo */
+    height: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.form-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 60%;  /* Vous pouvez ajuster la largeur du formulaire si nécessaire */
+    margin: 0 auto;  /* Centrage du formulaire */
+}
+.form-group {
+    margin-bottom: 15px;
+    
+
+}
+input, select {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 5px;  /* Petit padding pour un meilleur rendu */
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkbox-group {
+    display: flex;
+    align-items: left;
+}
+.checkbox-group input {
+    margin-right: 5px;
+}
+#effectif
+{
+    align-items: center;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    margin:10px;
+  }
+
+  .container {
+    max-width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    width:100%; /* Taille donnée */
+    margin:10px;
+    border-collapse: collapse;
+    border: 2px solid black; /* Bordure autour du tableau */
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 2px solid black; /* Bordure pour chaque cellule */
+} 
+
+  th {
+    background-color: #f5f5f5;
+  }
+.mid
+{
+ text-align: center;
+}
+
+
+
+/* ----------------------------Style pour les trois tableaux------------------------------ */
+/* Style pour les conteneurs de tableaux */
+.table-container {
+    display: inline-block;
+    margin-right: 120px; /* Espace entre les tableaux */
+    padding-left: 5px;
+}
+
+/* Style pour les tableaux eux-mêmes */
